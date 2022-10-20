@@ -27,7 +27,7 @@ The rotation method has been processed using the straightBack () function, in ad
 
 The pre-existing Python language on Raspberry Pi's operating system was used to operate the camera and process the images taken from it.
 
-### First , we converted the color scheme of the image from RGB to HSV.
+**First** , we converted the color scheme of the image from RGB to HSV.
 
 ### Second  , we created a color mask with which we determined the color range of green and red in the HSV system.
 
