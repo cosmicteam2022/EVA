@@ -29,18 +29,18 @@ The pre-existing Python language on Raspberry Pi's operating system was used to 
 
 **First** , we converted the color scheme of the image from RGB to HSV.
 
-### Second  , we created a color mask with which we determined the color range of green and red in the HSV system.
+**Second** , we created a color mask with which we determined the color range of green and red in the HSV system.
 
-### Third ### , we used the functions supported by the OpenCV library to extract the regions that contain these masks in the image.
+ **Third** , we used the functions supported by the OpenCV library to extract the regions that contain these masks in the image.
 
-### Fourth ### , we used functions to extract the area depending on ​​these masks, taking into account their rectangular shape.
+**Fourth**  , we used functions to extract the area depending on ​​these masks, taking into account their rectangular shape.
 
-### Fifth ### , we calculated the area for these masks and ignored areas less than 300 pixels.
+**Fifth**  , we calculated the area for these masks and ignored areas less than 300 pixels.
 
-### Sixth ### , we create global variables to count the number of masks of both colors.
+**Sixth** , we create global variables to count the number of masks of both colors.
 
-### Seventh ### , the least possible number of these masks of both colors was used to repeat 10 times to reduce the noise that might occur during the live video.
+**Seventh** , the least possible number of these masks of both colors was used to repeat 10 times to reduce the noise that might occur during the live video.
 
-### Eighth ### , we connected the Raspberry Pi controller to the Arduino through the serial port including the serial library.
+**Eighth** , we connected the Raspberry Pi controller to the Arduino through the serial port including the serial library.
 
-### Ninth ### , we sent the commands through the serial port of the Arduino so that the Arduino takes the appropriate action.
+**Ninth** , we sent the commands through the serial port of the Arduino so that the Arduino takes the appropriate action.
